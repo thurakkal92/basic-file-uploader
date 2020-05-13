@@ -37,7 +37,7 @@ function FileUpload() {
 				style={{ border: '2px solid #ccc', width: '30%', margin: '0 auto', borderStyle: 'dashed', cursor: 'pointer' }}
 			>
 				<FileUploadIcon height={40} width={32} className='my-5' color='green' />
-				<p>UPLOAD A TEXT FILE</p>
+				<p>UPLOAD A FILE HERE</p>
 				<input
 					style={{ display: 'none' }}
 					type='file'
