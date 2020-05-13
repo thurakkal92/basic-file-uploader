@@ -3,8 +3,11 @@
 In the project directory, you can run:
 
 ``` js dark
-### `yarn install`
-### `yarn start`
+yarn install
+```
+
+``` js dark
+yarn start
 ```
 
 Runs the app in the development mode.<br />
