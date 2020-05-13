@@ -1,0 +1,31 @@
+@for $i from 1 through 10 {
+  .p-#{$i} {
+    padding: $i*4+px
+  }
+  .m-#{$i} {
+    margin: $i*4+px
+  }
+
+  .px-#{$i} {
+    padding-right: $i*4+px;
+    padding-left: $i*4+px;
+  }
+  .mx-#{$i} {
+    margin-right: $i*4+px;
+    margin-left: $i*4+px;
+  }
+
+  .py-#{$i} {
+    padding-top: $i*4+px;
+    padding-bottom: $i*4+px;
+  }
+  .my-#{$i} {
+    margin-top: $i*4+px;
+    margin-bottom: $i*4+px;
+  }
+
+  .mr-#{$i} {
+    margin-right: $i*4+px;
+  }
+}
+

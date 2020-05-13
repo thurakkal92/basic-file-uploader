@@ -1,0 +1,10 @@
+@for $i from 1 through 10 {
+  .br-#{$i} {
+    border-radius: $i+px;
+  }
+}
+
+.b-1 {
+  border: 1px solid #ccc;
+  outline: none;
+}
